@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita1">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="284dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/title1"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="199dp"
+        android:layout_height="121dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/palestina" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="310dp"
+        android:layout_height="241dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Jakarta, Aktual.com – Tiga orang Palestina tewas dan 376 orang lagi cedera pada Jumat (5/10) dalam bentrokan antara ribuan pemrotes Palestina dan tentara Israel di bagian timur Jalur Gaza, di dekat perbatasan dengan Israel, kata beberapa sumber medis. Ashraf Al-Qedra, Juru Bicara Kementerian Kesehatan di Jalur Gaza, mengatakan kepada wartawan bahwa tiga orang Palestina termasuk seorang anak kecil tewas oleh tembakan tentara Israel di bagian timur Kota Gaza. Sebanyak 192 orang yang cedera dirawat di rumah sakit, termasuk 126 orang yang ditembak oleh tentara Israel dengan menggunakan peluru aktif, katanya. Al-Qedra mengatakan bahwa di antara korban, dua petugas paramedis dan dua wartawan, termasuk satu perempuan, juga cedera"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+</android.support.constraint.ConstraintLayout>
